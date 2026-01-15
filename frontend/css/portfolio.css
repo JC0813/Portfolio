@@ -1,0 +1,16 @@
+div#intro{
+    display: flex;
+    justify-content: flex-end;
+}
+div#Welcome{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}

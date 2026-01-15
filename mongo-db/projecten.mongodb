@@ -1,0 +1,14 @@
+db.projects.insertMany([
+    {
+        'name': 'Webwinkel'
+    },
+    {
+        'name': 'Portfolio'
+    },
+    {
+        'name': 'Kwartet'
+    },
+    {
+        'name': 'Tactiek bord'
+    }
+])
