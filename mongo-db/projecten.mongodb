@@ -1,14 +1,19 @@
-db.projects.insertMany([
+db.projecten.insertMany([
     {
-        'name': 'Webwinkel'
+        'name': 'Portfolio',
+        'beschrijving': 'Een pagina waar ik mezelf voorstel en waar je dingen over mij komt te weten.',
+        'tags': 'HTML, CSS, JS, Mongo',
     },
+
     {
-        'name': 'Portfolio'
+        'name': 'Tactiekbord',
+        'beschrijving': 'Een tactiekbord waar ik coaches mee help op makkelijker tactieken uit te stippelen en uit te leggen.',
+        'tags': 'HTML, CSS, JS, Canvas',
     },
+
     {
-        'name': 'Kwartet'
-    },
-    {
-        'name': 'Tactiek bord'
+        'name': 'Memory',
+        'beschrijving': 'Een leuk simpel spelletje voor te spelen.',
+        'tags': 'HTML, CSS, JS',
     }
 ])

@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 const ProjectenSchema = new mongoose.Schema({
     naam: String,
-    level: Number,
-    category: String
+    beschrijving: String,
+    tags: String,
 });
 
-module.exports = mongoose.model("projects", ProjectenSchema);
+module.exports = mongoose.model("projecten", ProjectenSchema);

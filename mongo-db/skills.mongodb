@@ -1,0 +1,18 @@
+db.skills.insertMany([
+    {
+        'name': 'HTML',
+        'level': 8,
+    },
+    {
+        'name': 'CSS',
+        'level': 9
+    },
+    {
+        'name': 'JS',
+        'level': 7
+    },
+    {
+        'name': 'Docker',
+        'level': 6
+    }
+])
