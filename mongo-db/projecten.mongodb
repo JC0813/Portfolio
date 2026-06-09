@@ -1,4 +1,4 @@
-db.projecten.insertMany([
+db.projects.insertMany([
     {
         'name': 'Portfolio',
         'beschrijving': 'Een pagina waar ik mezelf voorstel en waar je dingen over mij komt te weten.',
